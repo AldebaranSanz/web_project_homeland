@@ -1,0 +1,100 @@
+.places {
+  max-width: 1017px;
+  margin: 80px auto 92px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+}
+
+.places__place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title website "
+    "image paragraph"
+    "button paragraph";
+  align-items: start;
+  gap: 26px;
+}
+
+.places__title {
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: left;
+  grid-area: title;
+  grid-column-end: website;
+}
+
+.places__website {
+  grid-area: website;
+  align-self: end;
+}
+
+.places__url-heading {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #aaaaaa;
+  margin-bottom: 8px;
+}
+
+.places__artist {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.places__image {
+  max-width: 460px;
+  grid-area: image;
+  margin-right: auto;
+}
+
+.places__paragraphs {
+  grid-area: paragraph;
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.places__paragraph {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.places__button {
+  grid-area: button;
+  border-radius: 4px;
+  background-color: #0278fe;
+  color: #fff;
+  border: none;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  max-width: 355px;
+  min-width: 288px;
+  height: 48px;
+}
+
+@media (max-width: 768px) {
+  .places__image {
+    max-width: 320px;
+  }
+}
