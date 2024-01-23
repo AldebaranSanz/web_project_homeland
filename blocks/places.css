@@ -91,6 +91,12 @@
   max-width: 355px;
   min-width: 288px;
   height: 48px;
+  padding: 13px 20px;
+  transition: background-color 0.5s ease;
+}
+
+.places__button:hover {
+  background-color: #0063d2;
 }
 
 @media (max-width: 768px) {
