@@ -39,7 +39,7 @@
 .cover__title {
   color: #fffdfd;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
@@ -52,7 +52,7 @@
 .cover__paragraph {
   color: #fff;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -65,7 +65,7 @@
 
 .cover__button {
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
