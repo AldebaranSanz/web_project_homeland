@@ -51,19 +51,15 @@
 
 /* Media queries para 768px  */
 
-@media (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
   .intro {
     margin: 55px 24px 64px;
   }
-}
 
-@media (max-width: 768px) {
   .intro__quote {
     margin-top: 15px;
   }
-}
 
-@media (max-width: 768px) {
   .intro__text {
     margin-bottom: 0px;
   }

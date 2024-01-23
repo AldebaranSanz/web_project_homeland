@@ -14,7 +14,7 @@
     "image paragraph"
     "button paragraph";
   align-items: start;
-  gap: 26px;
+  gap: 40px;
 }
 
 .places__title {
@@ -91,7 +91,7 @@
   max-width: 355px;
   min-width: 288px;
   height: 48px;
-  padding: 13px 20px;
+  padding: 13px 10px;
   transition: background-color 0.5s ease;
 }
 
@@ -101,12 +101,69 @@
 
 /* Media queries para 768px  */
 
-@media screen(max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
   .places {
-    max-width: 768px;
+    max-width: 720px;
+    margin: 88px auto 92px;
+    row-gap: 25px;
+  }
+
+  .places__place {
+    gap: 28px;
+  }
+
+  .places__image {
+    max-width: 340px;
+  }
+
+  .places__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .places__paragraph {
+    font-size: 16px;
+  }
+}
+
+/* Media queries para 320px  */
+
+@media (max-width: 320px) {
+  .places {
+    row-gap: 50px;
+  }
+  .places__place {
+    gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "paragraph"
+      "button";
+  }
+
+  .places__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0px 16px 30px;
+  }
+
+  .places__website {
+    margin: 0px 16px 30px;
   }
 
   .places__image {
     max-width: 320px;
+  }
+
+  .places__paragraph {
+    margin: 0px 16px;
+  }
+
+  .places__button {
+    font-size: 14px;
+    align-self: center;
+    margin: 6 auto 0;
   }
 }

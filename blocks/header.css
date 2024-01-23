@@ -5,6 +5,8 @@
   display: block;
 }
 
+/* Media queries para 320px  */
+
 @media (max-width: 320px) {
   .header__logo {
     width: 200px;
