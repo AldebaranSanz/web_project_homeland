@@ -20,4 +20,8 @@ Homeland es un proyecto web interactivo que ofrece a los usuarios un viaje visua
 
 ## Acerca del Autor
 
-Este proyecto fue desarrollado por _Aldebaran Sanz_ como parte de un proyecto práctico como estudiante de desarrollo web de TripleTen. Si tienes preguntas o comentarios, no dudes en ponerte en contacto al correo electrónico: aldebaran@sietefotografos.com
+Este proyecto fue desarrollado por **_Aldebaran Sanz_** como parte de un proyecto práctico como estudiante de desarrollo web de TripleTen. Si tienes preguntas o comentarios, no dudes en ponerte en contacto al correo electrónico: aldebaran@sietefotografos.com
+
+## Visita la web:
+
+https://aldebaransanz.github.io/web_project_homeland/
