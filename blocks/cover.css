@@ -6,7 +6,12 @@
   background-repeat: no-repeat;
   background-position: center;
   margin: 0px 48px 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin: auto;
   position: relative;
@@ -21,6 +26,8 @@
   bottom: 0;
   background: #2a2c2f; /* Color de overlay */
   opacity: 0.3;
+  -webkit-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
 }
 
@@ -68,13 +75,19 @@
   border: none;
   min-height: 48px;
   min-width: 198px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
   position: relative;
   z-index: 1;
+  -webkit-transition: background-color 0.8s ease;
+  -o-transition: background-color 0.8s ease;
   transition: background-color 0.8s ease;
 }
 
 .cover__button-link {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
   text-decoration: none;
 }
