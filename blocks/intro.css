@@ -2,7 +2,6 @@
   margin: 92px auto 92px;
   display: flex;
   flex-direction: column;
-  align-items: left;
   max-width: 1017px;
   margin-bottom: 0px;
 }
@@ -48,4 +47,45 @@
   text-align: left;
   max-width: 722px;
   margin: 32px 0 92px;
+}
+
+/* Media queries para 768px  */
+
+@media (max-width: 768px) {
+  .intro {
+    margin: 55px 24px 64px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro__quote {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro__text {
+    margin-bottom: 0px;
+  }
+}
+
+/* Media queries para 320px  */
+
+@media (max-width: 320px) {
+  .intro {
+    margin: 44px 16px 38px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 109.375%;
+  }
+
+  .intro__quote {
+    line-height: 125%;
+  }
+
+  .intro__text {
+    margin-top: 0px;
+  }
 }
