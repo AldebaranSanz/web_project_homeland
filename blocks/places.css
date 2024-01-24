@@ -179,10 +179,14 @@
     font-size: 32px;
     line-height: 35px;
     margin: 0px 16px 30px;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
   }
 
   .places__website {
     margin: 0px 16px 30px;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
   }
 
   .places__image {
@@ -200,14 +204,7 @@
     align-self: center;
     margin: 6 auto 0;
   }
-  .places__title {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
-  .places__website {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-  }
+
   .places__image {
     -ms-grid-row: 5;
     -ms-grid-column: 1;
