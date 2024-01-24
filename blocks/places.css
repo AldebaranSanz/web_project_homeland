@@ -103,6 +103,7 @@
 }
 
 .places__button {
+  display: flex;
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: button;
@@ -116,13 +117,15 @@
   font-weight: 600;
   line-height: normal;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   max-width: 355px;
   min-width: 288px;
   height: 48px;
-  padding: 13px 10px;
   -webkit-transition: background-color 0.5s ease;
   -o-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
+  text-decoration: none;
 }
 
 .places__button:hover {
@@ -201,15 +204,17 @@
 
   .places__button {
     font-size: 14px;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    margin: 6 auto 0;
+    max-width: 288px;
     -ms-grid-row: 9;
     -ms-grid-column: 1;
   }
 
+  .places__button-link {
+    margin: auto;
+  }
+
   .places__paragraphs {
+    margin-bottom: 15px;
     -ms-grid-row: 7;
     -ms-grid-row-span: 1;
     -ms-grid-column: 1;
