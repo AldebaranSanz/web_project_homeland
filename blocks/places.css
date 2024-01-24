@@ -191,6 +191,8 @@
 
   .places__image {
     max-width: 320px;
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
   }
 
   .places__paragraph {
@@ -203,19 +205,13 @@
     -ms-grid-row-align: center;
     align-self: center;
     margin: 6 auto 0;
-  }
-
-  .places__image {
-    -ms-grid-row: 5;
+    -ms-grid-row: 9;
     -ms-grid-column: 1;
   }
+
   .places__paragraphs {
     -ms-grid-row: 7;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-  }
-  .places__button {
-    -ms-grid-row: 9;
     -ms-grid-column: 1;
   }
 }
